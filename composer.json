@@ -10,9 +10,28 @@
     "description": "",
     "type": "magento2-module",
     "version": "0.0.1",
+    "repositories": [{
+        "type":"package",
+        "package" :
+        {
+            "version" : "dev-patch-1",
+            "name": "thyseus/dropbox-php-sdk",
+            "source": {
+                "url": "https://github.com/thyseus/dropbox-php-sdk.git",
+                "reference": "patch-1",
+                "type": "git"
+            }
+        },
+        "require": {
+            "thyseus/dropbox-php-sdk":"dev-patch-1"
+        }
+    }],
     "require": {
         "php": "~7.1.0|~7.2.0|~7.3.0|~7.4.0|~8.0|~8.1",
-        "magento/framework": "102.0.*|103.0.*"
+        "magento/framework": "102.0.*|103.0.*",
+        "guzzlehttp/guzzle": "~6.0|~7.0",
+        "illuminate/collections": "^8.0|^9.0",
+        "thyseus/dropbox-php-sdk": "dev-patch-1"
     },
     "autoload": {
         "files": [
