@@ -9,26 +9,12 @@
     "description": "",
     "type": "magento2-module",
     "version": "0.0.1",
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "daggerhart/guzzle-theme",
-                "version": "1.2.3",
-                "type": "drupal-theme",
-                "source": {
-                    "url": "https://github.com/guzzle/guzzle.git",
-                    "type": "git",
-                    "reference": "master"
-                }
-            }
-        }
-    ],
-    "require": {
-        "php": "~7.1.0|~7.2.0|~7.3.0|~7.4.0|~8.0|~8.1",
-        "guzzlehttp/guzzle": "~6.0|~7.0",
-        "illuminate/collections": "^8.0|^9.0",
-        "daggerhart/guzzle-theme": "^1"
+        "require": {
+            "php": "~7.1.0|~7.2.0|~7.3.0|~7.4.0|~8.0|~8.1",
+            "magento/framework": "102.0.*|103.0.*",
+            "magento/module-catalog": "104.0.*",
+            "magento/module-checkout": "100.4.*",
+            "magento/module-quote": "101.2.*"
     },
     "autoload": {
         "files": [
