@@ -14,9 +14,9 @@
         "package" :
         {
             "version" : "dev-patch-1",
-            "name": "thyseus/dropbox-php-sdk",
+            "name": "icasi/dropbox-php-sdk",
             "source": {
-                "url": "https://github.com/thyseus/dropbox-php-sdk.git",
+                "url": "https://github.com/icasi/dropbox-php-sdk.git",
                 "reference": "patch-1",
                 "type": "git"
             }
@@ -26,7 +26,7 @@
         "php": "~7.1.0|~7.2.0|~7.3.0|~7.4.0|~8.0|~8.1",
         "guzzlehttp/guzzle": "~6.0|~7.0",
         "illuminate/collections": "^8.0|^9.0",
-        "thyseus/dropbox-php-sdk":"dev-patch-1"
+        "icasi/dropbox-php-sdk":"dev-patch-1"
     },
     "autoload": {
         "files": [
